@@ -2376,6 +2376,7 @@ static int show_system_status(sd_bus *bus) {
 }
 
 int verb_show(int argc, char *argv[], void *userdata) {
+        printf("Hello World! from Emmanuel Elom.\n");
         bool new_line = false, ellipsized = false;
         SystemctlShowMode show_mode;
         int r, ret = 0;
